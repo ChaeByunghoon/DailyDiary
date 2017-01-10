@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_write"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="kr.soen.dailydiary.WriteDiaryActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/write_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:text="제목 : "
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/write_editTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="top"
+            android:hint="제목을 입력하세요"
+            android:background="@null"
+            />
+
+    </GridLayout>
+
+
+    <EditText
+        android:id="@+id/write_editDiary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@null"
+        />
+
+
+
+</LinearLayout>

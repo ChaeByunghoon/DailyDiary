@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DailyDiary</string>
+    <string name="title_activity_daily_diary">DailyDiaryActivity</string>
+    <string name="store">Hello uarts</string>
+</resources>
